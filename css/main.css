@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Railsチュートリアル「HTML編」</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/main.css">
+.nav-menu {
+    text-align: right;
+    }
+    .nav-spacing {
+    margin: 0 0 0 10px;
+    }
+</head>
