@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<title>HTMLタグ一覧</title>
+<meta charset="utf-8">
+</head>
+
+<body>
+  <div style="text-align: right;">
+    <style>
+       a {
+            color: #0000ff;
+            text-decoration: none;
+        }
+    </style>
+    <a href="index.html">homeページ</a>
+    <a href="tags.html" style="margin-left:10px;">HTMLタグ一覧</a>
+    <a href="moby_dick.html" style="margin-left:10px;">読書案内『
+    Moby Dick』</a>
+    </div>
+<h1>重要なHTMLタグ一覧</h1>
+    <a herf="https://www.flickr.com/photos/jdhancock/3814523970"></a>
+    <img src="images/storm_trooper_tagged.jpg" alt="ストームトルーパー">
+
+    <p>
+      このページは、<a href="https://railstutorial.jp/html">Railsチュートリアル
+      「<em>HTML編</em>」</a>で多用されるタグのいくつかをすぐ参照できるクイックリファレンスページと
+      して作られます。このページの制作を通じて、HTMLのテーブル（<em>table</em>）を<code>table</code>
+      タグやそれに関連するタグの使い方を学びます。
+    </p>
+
+    <p>
+      以下のテーブルに含まれるHTMLタグは全体の一部に過ぎませんが、重要なHTMLについてはここで参照できます。
+    </p>
+
+    <h2>ブロック要素（block element）</h2>
+
+    <table>
+            <tr>
+              <th>HTMLタグ</th>
+              <th>タグ名</th>
+              <th>目的</th>
+            </tr>
+            <tr>
+              <td><code>h1</code>–<code>h6</code></td>
+              <td>見出し（heading）</td>
+              <td>この中に見出しを置く（レベル: 1–6）</td>
+            </tr>
+            <tr>
+              <td><code>p</code></td>
+              <td>段落（パラグラフ: paragraph）</td>
+              <td>この中に文章を入れる</td>
+            </tr>
+            <tr>
+              <td><code>table</code></td>
+              <td>表（テーブル: table）</td>
+              <td>この中にテーブルを置く</td>
+            </tr>
+            <tr>
+              <td><code>tr</code></td>
+              <td>表の行（table row）</td>
+              <td>この中に行データを置く</td>
+            </tr>
+            <tr>
+              <td><code>th</code></td>
+              <td>表の見出し（table header）</td>
+              <td>この中に表の見出しを置く</td>
+            </tr>
+            <tr>
+              <td><code>td</code></td>
+              <td>表のデータ（table data）</td>
+              <td>この中に表のセルデータを置く</td>
+            </tr>
+    </table>
+    <h2>インライン要素（inline element）</h2>
+
+    <table>
+      <tr>
+        <th>HTMLタグ</th>
+        <th>タグ名</th>
+        <th>目的</th>
+        <th>記述例</th>
+        <th>画面上の表示結果</th>
+      </tr>
+      <tr>
+        <td><code>em</code></td>
+        <td>軽い強調（emphasized）</td>
+        <td>テキストを軽く強調する</td>
+        <td>&#060;code&#062;技術の成熟（&#060;em&#062;technical sophistication&#060;/em&#062;）&#060;/code&#062;</td>
+        <td>技術の成熟（<em>technical sophistication</em>）</td>
+      </tr>
+      <tr>
+        <td><code>strong</code></td>
+        <td>強調（strong）</td>
+        <td>テキストを強調する</td>
+        <td>
+          &#060;code&#062;&#060;strong&#062;少なくとも10億人&#060;/strong&#062;&#060;/code&#062;
+        </td>
+        <td><code><strong>少なくとも10億人</strong></code></td>
+      </tr>
+      <tr>
+        <td><code>a</code></td>
+        <td>アンカー（anchor）</td>
+        <td>ハイパーリンクにする</td>
+        <td>
+          &#060;code&#062;<br>
+          &#060;a href="https://twitter.com/e9Fvn7W9NZYGQVY"&#062;僕のtwi... Xのアカウントのフォローもよろしく&#060;/a&#062;<br>
+          &#060;/code&#062;
+        </td>
+        <td><a href="https://twitter.com/e9Fvn7W9NZYGQVY">僕のtwi... Xのアカウントのフォローもよろしく </a></td>
+      </tr>
+      <tr>
+        <td><code>img</code></td>
+        <td>画像（image）</td>
+        <td>画像を配置する</td>
+        <td>
+          &#060;code&#062;
+          &#060;img src="images/kodawara-.jpg" alt="コダワラ－" width="100" height="100"&#062;
+          &#060;/code&#062;
+        </td>
+        <td>
+            <a herf="https://twitter.com/e9Fvn7W9NZYGQVY/photo"></a>
+            <img src="images/kodawara-.jpg" alt="コダワラー" width="100" height="100">
+        </td>
+      <tr>
+        <td><code>header</code></td>
+        <td>ヘッダー(header)</td>
+        <td>コンテンツの意味上のセクションを作る</td>
+        <td>
+        &#060;th&#062;むずすぎ&#060;/th&#062;
+        &#060;th&#062;やばすぎ&#060;/th&#062;
+        &#060;th&#062;ヤベーィ&#060;/th&#062;
+        </td>
+        <td>
+        <th>むずすぎ</th>
+        <th>やばすぎ</th>
+        <th>ヤベーィ</th>
+      </tr>
+      <tr>
+        <td><code>div</code></td>
+        <td>分けられた(devided)</td>
+        <td>ページの区切りを設定する（ブロック要素）</td>
+        <td>&#060;div&#062;<br>
+            &#060;p&#062;<br>
+            これはテストです。これはテストです。これはテストです。<br>
+            &#060;blockquote&#062;<br>
+            ｺレはテストではありませｎ。弧れはﾃぇストではあるませｎ。<br>
+            &#060;/blockquote&#062;<br>
+            &#060;/p&#062;<br>
+            &#060;/div&#062;<br>
+        </td>
+        <td>
+          <div>
+            <p>
+              これはテストです。これはテストです。これはテストです。
+              <blockquote>
+                ｺレはテストではありませｎ。弧れはﾃぇストではあるませｎ。
+              </blockquote>
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td><code>span</code></td>
+        <td>しばらくの間(span)</td>
+        <td>ページの区切りを設定する（インライン要素）</td>
+        <td>
+          &#060;span&#062;<br>
+          かかっかかっっか&#060;br&#062;ああかかっかかかかｋ
+            かかっかあっかかかっかかっかかかっか<br>
+          &#060;/span&#062;
+        </td>
+        <td>
+          <span>
+            かかっかかっっか<br>ああかかっかかかかｋ
+            かかっかあっかかかっかかっかかかっか
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <td><code>ol</code></td>
+        <td>順序あるリスト(ordered list)</td>
+        <td>順序のある番号付きのリストを表示する</td>
+        <td>
+          &#060;ol&#062;<br>
+            &#060;p&#062;<br>
+              好きな曲ランキング<br>
+            &#060;/p&#062;<br>
+            &#060;li&#062;<br>The search (NF)<br>&#060;/li&#062;<br>
+            &#060;li&#062;<br>Be the one (PANDORA)<br>&#060;/li&#062;<br>
+            &#060;li&#062;<br>インドア系ならトラックメイカー (music&lyric by Yunomi ,sing by nicamoq)<br>&#060;/li&#062;<br>
+          &#060;/ol&#062;
+        </td>
+        <td>
+          <ol>
+            <p>
+              好きな曲ランキング
+            </p>
+            <li>The search (NF)</li>
+            <li>Be the one (PANDORA)</li>
+            <li>インドア系ならトラックメイカー (music&lyric by Yunomi ,sing by nicamoq)</li>
+          </ol>
+        </td>
+      </tr>
+      <tr>
+        <td><code>ul</code></td>
+        <td>順序がないリスト(unordered list)</td>
+        <td>順序がない箇条書きのリストを表示する</td>
+        <td>
+          &#060;p&#062;<br>
+            めっちゃ悩んだ曲<br>
+            &#060;/p&#062;<br>
+            &#060;ul&#062;<br>
+            &#060;li&#062;<br>justiφ's (ISSA)<br>&#060;/li&#062;<br>
+            &#060;li&#062;<br>恋のうた (music&lyric by Yunomi ,feat by 由崎司)<br>&#060;/li&#062;<br>
+            &#060;li&#062;<br>clear morning (小倉唯)<br>&#060;/li&#062;<br>
+            &#060;/ul&#062;
+        </td>
+        <td>
+          <p>
+            めっちゃ悩んだ曲
+          </p>
+          <ul>
+            <li>justiφ's (ISSA)</li>
+            <li>恋のうた (music&lyric by Yunomi ,feat by 由崎司)</li>
+            <li>clear morning (小倉唯)</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td><code>li</code></td>
+        <td>リストアイテム(list item)</td>
+        <td>リストの項目を記述する</td>
+        <td>
+          &#060;p&#062;<br>
+            殿堂入り<br>
+          &#060;/p&#062;<br>
+          &#060;li&#062;<br>Celestial (Ed Sheeran)<br>&#060;/li&#062;<br>
+          &#060;li&#062;<br>迷える羊 (米津玄師)<br>&#060;/li&#062;
+        </td>
+        <td>
+          <p>
+            殿堂入り
+          </p>
+          <li>Celestial (Ed Sheeran)</li>
+          <li>迷える羊 (米津玄師)</li>
+        </td>
+      </tr>
+    <table>
+    <h2>ドキュメントタグ</h2>
+    <table>
+      <tr>
+        <th>HTMLタグ</th>
+        <th>タグ名</th>
+        <th>目的</th>
+      </tr>
+      <tr>
+        <td><code>html</code></td>
+        <td>html</td>
+        <td>html文書全体を定義する</td>
+      </tr>
+      <tr>
+        <td><code>head</code></td>
+        <td>head</td>
+        <td>html文書に関するメタ情報を入力する</td>
+      </tr>
+      <tr>
+        <td><code>body</code></td>
+        <td>body</td>
+        <td>html文書のコンテンツを示す</td>
+      </tr>
+      <tr>
+        <td><code>title</code></td>
+        <td>title</td>
+        <td>文書にタイトルをつける</td>
+      </tr>
+      <tr>
+        <td><code>meta</code></td>
+        <td>meta</td>
+        <td>その文書に関する様々な情報</td>
+      </tr>
+    </table>
+  </body>
+</html>
